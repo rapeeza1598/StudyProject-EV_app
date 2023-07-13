@@ -1,0 +1,376 @@
+{
+  "uuid": "b11d78d6a25b627a086006e44830581e",
+  "path": "Offline/power_meter",
+  "name": "power_meter",
+  "content": "",
+  "created_at": "2021-11-22 08:33:43",
+  "updated_at": "2021-12-06 17:56:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b7b35ef4507af745f3a843a7c7b56ff5",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7df5288c044c4b7aafb8b60a44b1c550": 1,
+        "b3995e6fbb964dd7849603883a9d3a99": 1,
+        "46d949f90c024618991708709adb9dbc": 1,
+        "381867340f0342028a3e5febf2ff0b5f": 1,
+        "d60a51e0d5e34d51b9462abd06673676": 1,
+        "d1213a35b142410084c4348438547b8e": 1,
+        "86cb6eeb9e7346deb842db73db428e28": 1,
+        "24687d5cb2454ebc91256f76cf699e95": 7,
+        "fe14b8e0a8a44cf6aef70b453d340613": 1,
+        "907c611d07e842adb712662b2a424545": 1,
+        "4160acdcbf3c44b7857840e3de817f0d": 1,
+        "6a469063902c4d47b9003ece9d1d25f0": 1,
+        "50c3865548a14b7f91b0392a3ba509af": 1,
+        "7c6a4836973e8830e99830ae740040ed": 1,
+        "5ba3e74e1f7dc06d9aed668a8f2a123a": 1,
+        "b87004ae4de14a56922e1bbfa6c7c8f7": 1,
+        "0ecc36f4cc0a48b391e954221a6b0495": 1,
+        "29acb14a4a40412fa4acfc164a162450": 1,
+        "2ec054adbf6c4f1da6188d20ce189495": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "18650",
+          1,
+          "18650-HOLDER",
+          "3.1V",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f300c83d68244ddfb013c83ff543dc03",
+            "uuid": "29acb14a4a40412fa4acfc164a162450"
+          }
+        ],
+        [
+          "1N4001",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LRC",
+            "BOM_Manufacturer Part": "1N4001",
+            "BOM_Supplier Part": "C82804",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "6a469063902c4d47b9003ece9d1d25f0"
+          }
+        ],
+        [
+          "JQC-3FF/024-1ZS(551)",
+          1,
+          "RELAY-TH_HF3FF-XX-1ZXX-XXX",
+          "K1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HF",
+            "BOM_Manufacturer Part": "JQC-3FF/024-1ZS(551)",
+            "BOM_Supplier Part": "C22709",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e456e0e021304807a3e9737f010cdef9",
+            "uuid": "5ba3e74e1f7dc06d9aed668a8f2a123a"
+          }
+        ],
+        [
+          "504PUC",
+          1,
+          "LED2-2.54-D5.0MM",
+          "LED1",
+          {
+            "BOM_Manufacturer Part": "504PUC",
+            "puuid": "5d2e615cc4af43df816003d8bc37297d",
+            "uuid": "b87004ae4de14a56922e1bbfa6c7c8f7"
+          }
+        ],
+        [
+          "Header-Pins_2.54_04Pin_01Row",
+          1,
+          "HEADER-PINS_2.54_04PIN_01ROW",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d42a4db431514365b29e95ed1da63170",
+            "uuid": "0ecc36f4cc0a48b391e954221a6b0495"
+          }
+        ],
+        [
+          "2N2222A",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-R",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C358533",
+            "BOM_Manufacturer": "Foshan Blue Rocket Elec",
+            "BOM_Manufacturer Part": "2N2222A",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "d759540c89844d9986051022192fcef6",
+            "uuid": "4160acdcbf3c44b7857840e3de817f0d"
+          }
+        ],
+        [
+          "10k",
+          5,
+          "PKG-0.25W RESISTOR",
+          "R1,R2,R4,R6,R7",
+          {
+            "BOM_Supplier Part": "9339116",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "MULTICOMP",
+            "BOM_Manufacturer Part": "MCF 0.25W 10K",
+            "puuid": "1f99410ed5cb4dc392200d904de87c86",
+            "uuid": "24687d5cb2454ebc91256f76cf699e95"
+          }
+        ],
+        [
+          "560",
+          2,
+          "PKG-0.25W RESISTOR",
+          "R3,R5",
+          {
+            "BOM_Supplier Part": "9339116",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "MULTICOMP",
+            "BOM_Manufacturer Part": "MCF 0.25W 10K",
+            "puuid": "1f99410ed5cb4dc392200d904de87c86",
+            "uuid": "24687d5cb2454ebc91256f76cf699e95"
+          }
+        ],
+        [
+          "Switch-6x6x10",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1",
+          {
+            "BOM_Supplier Part": "C71840",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BBJ",
+            "BOM_Manufacturer Part": "Switch,6*6*10Plastic head,260G, 0.25mm,Straight line",
+            "puuid": "153ed004b0794cb6b8a2ebde7a1aabdf",
+            "uuid": "7c6a4836973e8830e99830ae740040ed"
+          }
+        ],
+        [
+          "ESP32 MH-ET LIVE MINIKIT V1.1",
+          1,
+          "ESP32 MH-ET LIVE MINIKIT",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "88193e0a7e5a46d885a014f56d9fb31e",
+            "uuid": "7df5288c044c4b7aafb8b60a44b1c550"
+          }
+        ],
+        [
+          "TP4056 Type C Lithium Battery Charger Board",
+          1,
+          "TP4056 USBC_CHARGER_BOARD_FOOTPRINT",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4d98fdc9ec874ef496e2e32a59b6649c",
+            "uuid": "b3995e6fbb964dd7849603883a9d3a99"
+          }
+        ],
+        [
+          "DC_DC_Step_Up_Down_3.3V",
+          1,
+          "DC_DC_STEP_UP_DOWN_3.3V",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e97207cca3d3431da865f2bff802a4eb",
+            "uuid": "46d949f90c024618991708709adb9dbc"
+          }
+        ],
+        [
+          "DB126V-5.0-2P",
+          1,
+          "CONN-TH_2P-P5.00_L7.8-W10.0",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395849",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DB126V-5.0-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5950d62a35814ba3b3c2c395ea23beda",
+            "uuid": "381867340f0342028a3e5febf2ff0b5f"
+          }
+        ],
+        [
+          "PINHEADER1X5Y",
+          1,
+          "PINHEADER1X5N",
+          "U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "undefined",
+            "BOM_Supplier": "",
+            "puuid": "f8ad1211a7b145a9b6673b81871980fb",
+            "uuid": "d60a51e0d5e34d51b9462abd06673676"
+          }
+        ],
+        [
+          "DBT50B-9.5-4P",
+          1,
+          "CONN-TH_DBT50B-9.5-4P",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C729813",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DBT50B-9.5-4P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a319f454cd2743f1a8c498a7320486a7",
+            "uuid": "fe14b8e0a8a44cf6aef70b453d340613"
+          }
+        ],
+        [
+          "60A SHUNT",
+          1,
+          "60A SHUNT",
+          "U9",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "dcd8486296bc46d9b11e794bffbbd718",
+            "uuid": "907c611d07e842adb712662b2a424545"
+          }
+        ],
+        [
+          "HLK-10M05",
+          1,
+          "PWRM-TH_HLK-10M05",
+          "U10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C403745",
+            "BOM_Manufacturer": "HI-LINK",
+            "BOM_Manufacturer Part": "HLK-10M05",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "91564ac4c1cc40e9962490f6deee7c7c",
+            "uuid": "2ec054adbf6c4f1da6188d20ce189495"
+          }
+        ],
+        [
+          "jumper",
+          1,
+          "JUMPER",
+          "U11",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "7ba48273f0964791a2ef1fa5b339d0d3",
+            "uuid": "86cb6eeb9e7346deb842db73db428e28"
+          }
+        ],
+        [
+          "OPT3001",
+          1,
+          "OPT3001",
+          "U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "91374c1c96d946edb050f24bbf614bf2",
+            "uuid": "50c3865548a14b7f91b0392a3ba509af"
+          }
+        ],
+        [
+          "LORA",
+          1,
+          "MAXIIOT DL7612-AS923-TH",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C529580",
+            "BOM_Manufacturer": "Espressif Systems",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32U(16MB)",
+            "puuid": "4ad397bf27e6430da67a22b90cef1069",
+            "uuid": "d1213a35b142410084c4348438547b8e"
+          }
+        ]
+      ],
+      "updateTime": 1638788217,
+      "createTime": 1637549763,
+      "histories": [],
+      "created_at": "2021-11-22 09:56:03",
+      "updated_at": "2021-12-06 17:56:57"
+    },
+    {
+      "uuid": "6f2cb620100d9727867f00ca894103ec",
+      "puuid": "b11d78d6a25b627a086006e44830581e",
+      "title": "PCB_power_meter",
+      "filename": "PCB_power_meter.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1f99410ed5cb4dc392200d904de87c86": 7,
+        "4d98fdc9ec874ef496e2e32a59b6649c": 1,
+        "f300c83d68244ddfb013c83ff543dc03": 1,
+        "c2803222ad4b48fb94db0de548a6280a": 1,
+        "e456e0e021304807a3e9737f010cdef9": 1,
+        "5d2e615cc4af43df816003d8bc37297d": 1,
+        "d42a4db431514365b29e95ed1da63170": 1,
+        "d759540c89844d9986051022192fcef6": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
+        "88193e0a7e5a46d885a014f56d9fb31e": 1,
+        "cbfdb18d035c4710a2955e3b89a151d1": 1,
+        "e97207cca3d3431da865f2bff802a4eb": 1,
+        "5950d62a35814ba3b3c2c395ea23beda": 1,
+        "f8ad1211a7b145a9b6673b81871980fb": 1,
+        "a319f454cd2743f1a8c498a7320486a7": 1,
+        "dcd8486296bc46d9b11e794bffbbd718": 1,
+        "91374c1c96d946edb050f24bbf614bf2": 1,
+        "4ad397bf27e6430da67a22b90cef1069": 1,
+        "7ba48273f0964791a2ef1fa5b339d0d3": 1
+      },
+      "BOM": [],
+      "updateTime": 1638775893,
+      "createTime": 1637588969,
+      "histories": [],
+      "created_at": "2021-11-22 20:49:29",
+      "updated_at": "2021-12-06 14:31:33"
+    }
+  ],
+  "sort": [],
+  "title": "power_meter",
+  "foldername": "power_meter",
+  "schfilename": "power_meter.json",
+  "schfilemtime": 1638788217662
+}
